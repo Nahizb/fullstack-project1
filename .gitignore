@@ -29,7 +29,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+
 .sass-cache/
 /connect.lock
 /coverage
@@ -44,6 +44,8 @@ Thumbs.db
 
 # Ignorar backend (no se despliega en GitHub Pages)
 backend/
+backend/.env
+
 
 # Ignorar carpetas de compilación del frontend
 frontend/node_modules/
