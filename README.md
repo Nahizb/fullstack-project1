@@ -45,7 +45,8 @@ Una vez iniciados ambos servicios, se puede acceder a la interfaz desde el naveg
 
     Representación gráfica eficiente Chart.js
 
-    <img width="1882" height="1070" alt="Screenshot 2025-10-19 195135" src="https://github.com/user-attachments/assets/fc72ae0d-e7ce-4349-b939-d1307bfce8e3" />
+![Visualización en tiempo real](./assets/Screenshot%202025-10-19%20195135.png)
+
 
 
 
