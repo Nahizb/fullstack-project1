@@ -45,10 +45,8 @@ Una vez iniciados ambos servicios, se puede acceder a la interfaz desde el naveg
 
     Representación gráfica eficiente Chart.js
 
-### 🖼️ Interfaz de la aplicación
+### 🖼️ Interfaz de  en tiempo real de los datos meteorológicos:
 
-La siguiente imagen muestra la visualización en tiempo real de los datos meteorológicos:
-### 🖼️ Interfaz de la aplicación
 
 La siguiente imagen muestra la visualización en tiempo real de los datos meteorológicos:
 
