@@ -48,8 +48,12 @@ Una vez iniciados ambos servicios, se puede acceder a la interfaz desde el naveg
 ### 🖼️ Interfaz de la aplicación
 
 La siguiente imagen muestra la visualización en tiempo real de los datos meteorológicos:
+### 🖼️ Interfaz de la aplicación
 
-![Visualización en tiempo real](./assets/Screenshot%202025-10-19%20195135.png)
+La siguiente imagen muestra la visualización en tiempo real de los datos meteorológicos:
+
+![Visualización en tiempo real](./frontend/assets/Screenshot%202025-10-19%20195135.png)
+
 
 
 
