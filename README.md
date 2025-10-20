@@ -60,4 +60,6 @@ La siguiente imagen muestra la visualización en tiempo real de los datos meteor
 
 
 
+
+
     
