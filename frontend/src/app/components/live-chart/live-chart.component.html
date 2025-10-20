@@ -1,0 +1,52 @@
+<div class="live-chart-layout">
+  <section class="info-sidebar">
+    <div class="info-row">
+      <div class="info-box">
+        <h3>Actualización progresiva</h3>
+        <p>Los datos se actualizan cada 5 segundos según la hora actual.</p>
+      </div>
+      <div class="info-box">
+        <h3>Unidades de medida</h3>
+        <ul>
+          <li>Temperatura media en °C</li>
+          <li>Energía producida en kWh</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-row">
+      <div class="info-box">
+        <h3>Intervalos minutales</h3>
+        <p>Los datos se agrupan por minuto en el gráfico.</p>
+      </div>
+      <div class="info-box">
+        <h3>Datos en tiempo real</h3>
+        <p>
+          Último valor recibido:
+          <span class="highlighted-value">
+            {{ latestValue?.toFixed(2) }} {{ selectedSensor === 'Temperatura' ? '°C' : 'kWh' }}
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chart-panel">
+    <div class="filter-panel">
+      <label>
+        Sensor:
+        <select [(ngModel)]="selectedSensor">
+          <option *ngFor="let sensor of sensors" [value]="sensor">{{ sensor }}</option>
+        </select>
+      </label>
+    </div>
+
+    <canvas
+      *ngIf="isBrowser"
+      baseChart
+      [data]="{ labels: chartLabels, datasets: filteredData }"
+      [options]="chartOptions"
+      [type]="'line'">
+    </canvas>
+  </section>
+</div>
