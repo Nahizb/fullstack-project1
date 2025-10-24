@@ -50,7 +50,8 @@ Una vez iniciados ambos servicios, se puede acceder a la interfaz desde el naveg
 
 La siguiente imagen muestra la visualización en tiempo real de los datos meteorológicos:
 
-![Visualización en tiempo real](./frontend/assets/Screenshot%202025-10-19%20195135.png)
+![Captura](frontend/assets/Screenshot%202025-10-19%20195135.png)
+
 
 
 
