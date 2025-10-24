@@ -7,6 +7,10 @@
 
 La aplicación web de visualización de predicción meteorológica fue desarrollada utilizando **Angular** y **TypeScript**, siguiendo un enfoque modular y basado en componentes reutilizables. El sistema integra un **backend** encargado de procesar los datos contenidos en un archivo YAML y un **frontend** dinámico que consume dichos datos y los representa visualmente mediante la librería **Chart.js**.
 
+
+![Tiempo real](frontend/assets/tiempooreal.png)
+
+
 ### 📦 Requisitos previos
 
 - Node.js v18 o superior
