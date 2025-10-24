@@ -41,6 +41,9 @@ Una vez iniciados ambos servicios, se puede acceder a la interfaz desde el naveg
 
     Un gráfico lineal que representa la evolución de la temperatura media (°C) y la energía producida (kWh) en intervalos minutales.
 
+
+![Gráfica](frontend/assets/grafica.png)
+
 📊 Características destacadas
 
     Actualización progresiva de datos
